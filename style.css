@@ -131,13 +131,24 @@ header  {
 .last-slider li {
     margin-bottom: 15px;
 }
+.last-slider {
+    padding: 0 15px
+}
+.info-container a:hover {
+    color: #00ffff;
+}    
+
+
+
+
+/* last 2 sliders of awarded and icons  */
+
 .end-text {
+
     color: white;
     background-color: #333333;
     text-align: center;
     padding-right: 0;
-    
-
 }
 .end-text h2{
     font-size:50px;
@@ -151,26 +162,61 @@ header  {
 
 }
 .end-icons {
+    display: flex;
+    justify-content:center;
     background-color: #00c8c8;
-    text-align: center;
-    margin: auto 0 auto ;
+    align-items: center;
     padding-left:0;
+    padding-right: 0;
     
 
 
 }
-.end-icons .fab{
+.end-icons i{
+    align-items: center;
     font-size: 35px;
     color: #FFF;
-    padding: 75px 30px;
-
+    padding: 30px;
+}
+.last-slider-container .row {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
 }
 footer {
-    width: 100;
+    max-width: 100%;
     color: #777777;
     background-color: #333333;
     text-align: center;
     padding: 5px;
+}
+
+
+/* responsive */ 
+
+
+@media (max-width: 575px) {
+    .last-slider {
+        text-align: center;
+
+    }
+    .last-slider h3 {
+        padding: 0;
+    }
+    .info-container{
+        padding: 15px 0;
+    }
+}
+@media (max-width: 420px) {
+    .banner-title h2 {
+        padding: 0;
+    }
+    .end-text h3 {
+        font-size: 35px;
+    }
+    .end-text h2 {
+        font-size: 40px;
+    }
 }
 
 

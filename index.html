@@ -5,28 +5,36 @@
  <meta name="Nader Galal" content="First Website">
  <title>First website by my hand</title>   
 <meta charset="utf-8">
-  
-<link rel="stylesheet" href="bootstrap.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <script src="https://kit.fontawesome.com/3d05187b7d.js" crossorigin="anonymous"></script>
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
 </head>    
 <body>
-   <nav>
-       <div class="nav-logo">
-           <h2>AVENUE FASHION</h2>
-       </div>
-       <div class="nav-bar">
-        <ul>
-           <li>MEN</li>
-           <li>WOMEN</li>
-           <li>THE BRAND</li>
-           <li>LOCAL STORES</li>
-           <li>LOOK BOOK</li>
-        </ul>
-       </div>
-   </nav>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark justify-content-between">
+        <a href="#" class="navbar-brand">AVENUE FASHION</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Features" >MEN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">WOMEN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Pricing" >THE BRAND</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Reviews" >LOCAL STORES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact" >LOOK BOOK</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
    <header>
        <div class="banner-title">
            <h2>
@@ -65,82 +73,86 @@
            </div>
        </div>
    </div>
-   <div class="container-fluid">
-       <div class="container last-slider">
-         <div class="row">
-           <div class="col-lg-2">
-               <h3>INFORMATION</h3>
-            <ul>
-               <li><a href="#"><span>The Brand</span></a></li>
-               <li><a href="#">Customer Services</a></li>
-               <li><a href="#">Privacy&#38;Cookies</a></li>
-               <li><a href="#">Site map</a></li>
-            </ul>
-           </div>
-           <div class="col-lg-3">
-               <h3>WHY BUY FROM US</h3>
-               <ul>
-            <li><a href="#">Shipping&#38;Returns</a></li>
-           <li><a href="#">Secure Shopping</a></li>
-           <li><a href="#">Testimonials&</a></li>
-           <li><a href="#"><span>Award Winning</span></a></li>
-            <li><a href="#"><span>Ethical Trading</span></a></li>
-        </ul>
+   <section class="last-slider">
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-12 info-container">
+              <h3>INFORMATION</h3>
+           <ul>
+              <li><a href="#">The Brand</a></li>
+              <li><a href="#">Customer Services</a></li>
+              <li><a href="#">Privacy&#38;Cookies</a></li>
+              <li><a href="#">Site map</a></li>
+           </ul>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 info-container">
+              <h3>WHY BUY FROM US</h3>
+              <ul>
+           <li><a href="#">Shipping&#38;Returns</a></li>
+          <li><a href="#">Secure Shopping</a></li>
+          <li><a href="#">Testimonials&</a></li>
+          <li><a href="#">Award Winning</a></li>
+           <li><a href="#">Ethical Trading</a></li>
+       </ul>
+       </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 info-container">
+           <h3>YOUR ACCOUNT</h3>
+           <ul>
+           <li><a href="#">Sign in</a></li>
+           <li><a href="#">Register</a></li>
+           <li><a href="#">View Cart</a></li>
+           <li><a href="#">View your lookbook </a></li>
+           <li><a href="#">Track an Order </a></li>
+           <a href="#">Update information</a></li>
+       </ul>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 info-container">
+           <h3>LOOKBOOK</h3>
+           <ul>
+           <li><a href="#">Latest Posts</a></li>
+           <li> <a href="#">Men's lookbook </a></li>
+           <li><a href="#">Women's lookbook&</a></li>
+           <li><a href="#">Lookbooks RSS feed </a></li>
+           <li> <a href="#">View your lookbook </a></li>
+           <li>  <a href="#">Delete your lookbook </a></li>
+           </ul>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 info-container">
+           <h3>CONTACT DETAILS</h3>
+           <adress>
+               <p>
+                   Head Office:Nader Galal<br>
+                   180-182 Regent Street,London.
+               </p>
+               <p>Telephone:012-345-6789</p>
+               <a href="mailto:nader.g.mansour@gmail.com">Your Website</a>
+           </adress>
+          </div>
         </div>
-           <div class="col-lg-2">
-            <h3>YOUR ACCOUNT</h3>
-            <ul>
-            <li><a href="#">Sign in</a></li>
-            <li><a href="#">Register</a></li>
-            <li><a href="#">View Cart</a></li>
-            <li><a href="#">View your lookbook </a></li>
-            <li><a href="#">Track an Order </a></li>
-            <a href="#">Update information</a></li>
-        </ul>
-           </div>
-           <div class="col-lg-2">
-            <h3>LOOKBOOK</h3>
-            <ul>
-            <li><a href="#">Latest Posts</a></li>
-            <li> <a href="#">Men's lookbook </a></li>
-            <li><a href="#">Women's lookbook&</a></li>
-            <li><a href="#">Lookbooks RSS feed </a></li>
-            <li> <a href="#">View your lookbook </a></li>
-            <li>  <a href="#">Delete your lookbook </a></li>
-            </ul>
-           </div>
-           <div class="col-lg-3">
-            <h3>CONTACT DETAILS</h3>
-            <adress>
-                <p>
-                    Head Office:Nader Galal<br>
-                    180-182 Regent Street,London.
-                </p>
-                <p>Telephone:012-345-6789</p>
-                <a href="mailto:nader.g.mansour@gmail.com">Your Website</a>
-            </adress>
-           </div>
-         </div>
-         <div class="row">
-             <div class="col-lg-6 end-text">
-                <h2>AWARD WINNER</h2>
-                <h3>FASHION AWARD 2016</h3>
-             </div>
-             <div class="col-lg-6 end-icons">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-pinterest"></i>
-             </div>
-         </div>
-    </div>
-   </div>
+   </section>
+         <seciton class="last-slider-container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 col-12 end-text">
+                   <h2>AWARD WINNER</h2>
+                   <h3>FASHION AWARD 2016</h3>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-12 end-icons">
+                   <i class="fa fa-facebook"></i>
+                   <i class="fa fa-twitter"></i>
+                   <i class="fa fa-instagram"></i>
+                   <i class="fa fa-pinterest"></i>
+                </div>
+            </div>
+         </seciton>
    <footer>
        <p>Copy and rights resrved</p>
    </footer>
 
 
    
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+
 
 </body>
 </html>
